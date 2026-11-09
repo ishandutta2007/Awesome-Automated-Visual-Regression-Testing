@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="accentPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="pixelGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.5"/>
+      <circle cx="40" cy="40" r="1.5" fill="#38bdf8" fill-opacity="0.3"/>
+    </pattern>
+
+    <style>
+      .glow-pulse-1 {
+        animation: pulse1 6s ease-in-out infinite alternate;
+      }
+      .glow-pulse-2 {
+        animation: pulse2 8s ease-in-out infinite alternate;
+      }
+      .scan-line {
+        animation: scanMove 4s ease-in-out infinite alternate;
+      }
+      .diff-beacon {
+        animation: ping 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+      }
+      .pill-float {
+        animation: floatPill 5s ease-in-out infinite alternate;
+      }
+      .pill-float-reverse {
+        animation: floatPillRev 6s ease-in-out infinite alternate;
+      }
+      @keyframes pulse1 {
+        0% { transform: scale(0.9) translate(0px, 0px); opacity: 0.35; }
+        100% { transform: scale(1.15) translate(40px, -20px); opacity: 0.7; }
+      }
+      @keyframes pulse2 {
+        0% { transform: scale(1) translate(0px, 0px); opacity: 0.3; }
+        100% { transform: scale(1.2) translate(-30px, 25px); opacity: 0.65; }
+      }
+      @keyframes scanMove {
+        0% { transform: translateY(0px); opacity: 0.2; }
+        50% { opacity: 0.9; }
+        100% { transform: translateY(130px); opacity: 0.2; }
+      }
+      @keyframes ping {
+        0% { r: 6px; opacity: 1; stroke-width: 2px; }
+        75%, 100% { r: 22px; opacity: 0; stroke-width: 1px; }
+      }
+      @keyframes floatPill {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+      @keyframes floatPillRev {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(8px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#pixelGrid)"/>
+
+  <!-- Dynamic Glowing Ambient Orbs (Background layer) -->
+  <g class="glow-pulse-1" transform-origin="200 150">
+    <circle cx="200" cy="150" r="140" fill="url(#accentCyan)" filter="url(#glowCyan)"/>
+  </g>
+  <g class="glow-pulse-2" transform-origin="1000 280">
+    <circle cx="1000" cy="280" r="160" fill="url(#accentPurple)" filter="url(#glowPurple)"/>
+  </g>
+
+  <!-- Interactive Graphic: Side-by-side Visual Regression Diff Inspector (Right side graphic) -->
+  <g transform="translate(820, 75)" opacity="0.9">
+    <!-- Outer Browser Container -->
+    <rect width="320" height="200" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <!-- Window Bar -->
+    <rect width="320" height="28" rx="10" fill="#1e293b"/>
+    <circle cx="16" cy="14" r="4" fill="#ef4444"/>
+    <circle cx="28" cy="14" r="4" fill="#f59e0b"/>
+    <circle cx="40" cy="14" r="4" fill="#10b981"/>
+    <rect x="60" y="7" width="130" height="14" rx="4" fill="#0f172a" opacity="0.7"/>
+
+    <!-- Left UI Card (Baseline) -->
+    <rect x="15" y="45" width="135" height="140" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <rect x="25" y="55" width="70" height="10" rx="3" fill="#64748b"/>
+    <rect x="25" y="73" width="115" height="22" rx="4" fill="#334155"/>
+    <rect x="25" y="103" width="50" height="8" rx="2" fill="#475569"/>
+    <rect x="25" y="117" width="80" height="8" rx="2" fill="#334155"/>
+    <rect x="25" y="145" width="45" height="20" rx="4" fill="#0284c7"/>
+    <text x="82" y="178" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Baseline (Passed)</text>
+
+    <!-- Right UI Card (Current Diff with Alert) -->
+    <rect x="170" y="45" width="135" height="140" rx="6" fill="#1e293b" stroke="#f43f5e" stroke-width="1.5"/>
+    <rect x="180" y="55" width="70" height="10" rx="3" fill="#64748b"/>
+    <!-- Changed Component highlighted in diff magenta -->
+    <rect x="180" y="70" width="115" height="28" rx="4" fill="#e11d48" fill-opacity="0.25" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <text x="237" y="88" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" fill="#fda4af" font-weight="bold" text-anchor="middle">Δ Visual Diff</text>
+    <rect x="180" y="106" width="60" height="8" rx="2" fill="#475569"/>
+    <rect x="180" y="120" width="70" height="8" rx="2" fill="#334155"/>
+    <rect x="180" y="145" width="45" height="20" rx="4" fill="#e11d48"/>
+    <text x="237" y="178" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="9" fill="#f43f5e" text-anchor="middle">Regression Caught</text>
+
+    <!-- Animated Radar Ping on Diff -->
+    <circle cx="280" cy="74" r="6" fill="#f43f5e" opacity="0.8"/>
+    <circle class="diff-beacon" cx="280" cy="74" r="6" fill="none" stroke="#f43f5e"/>
+
+    <!-- Animated Laser Scan Line over Diff Card -->
+    <g class="scan-line">
+      <line x1="170" y1="45" x2="305" y2="45" stroke="#38bdf8" stroke-width="2" opacity="0.9" filter="url(#glowCyan)"/>
+    </g>
+  </g>
+
+  <!-- Dynamic Feature Badges Floating in Foreground -->
+  <g class="pill-float" transform="translate(60, 48)">
+    <rect width="180" height="30" rx="15" fill="#1e293b" stroke="#0ea5e9" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+    <text x="98" y="19" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="600" fill="#bae6fd" text-anchor="middle">✨ Pixel-Perfect UI Diff</text>
+  </g>
+
+  <g class="pill-float-reverse" transform="translate(255, 48)">
+    <rect width="195" height="30" rx="15" fill="#1e293b" stroke="#a855f7" stroke-width="1.2" opacity="0.95"/>
+    <circle cx="16" cy="15" r="4" fill="#c084fc"/>
+    <text x="105" y="19" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="600" fill="#e9d5ff" text-anchor="middle">⚡ Cross-Browser AI Testing</text>
+  </g>
+
+  <!-- Clear Foreground Typography (High Contrast, Guaranteed Unobscured) -->
+  <g transform="translate(60, 150)">
+    <!-- Subtitle Category Tag -->
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="2.5" fill="#38bdf8" text-transform="uppercase">
+      CURATED QA &amp; FRONTEND ECOSYSTEM
+    </text>
+
+    <!-- Main Title with Gradient Fill -->
+    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#primaryGrad)" letter-spacing="-1">
+      Awesome Automated
+    </text>
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-1">
+      Visual Regression Testing
+    </text>
+
+    <!-- Explanatory Tagline -->
+    <text x="0" y="148" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="400" fill="#94a3b8">
+      Top SaaS Platforms, Open-Source Tools, Baseline Diff Engines &amp; CI/CD Quality Gates
+    </text>
+  </g>
+
+  <!-- Bottom Metric / Architecture Flow Indicators -->
+  <g transform="translate(60, 360)">
+    <!-- Pill 1: Baseline -->
+    <rect x="0" y="0" width="145" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="72" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#cbd5e1" text-anchor="middle">📸 Capture Baselines</text>
+
+    <path d="M 155 13 L 175 13 M 170 8 L 176 13 L 170 18" fill="none" stroke="#64748b" stroke-width="1.5"/>
+
+    <!-- Pill 2: Diff -->
+    <rect x="185" y="0" width="145" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="257" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#cbd5e1" text-anchor="middle">🔍 Pixel &amp; AI Diffing</text>
+
+    <path d="M 340 13 L 360 13 M 355 8 L 361 13 L 355 18" fill="none" stroke="#64748b" stroke-width="1.5"/>
+
+    <!-- Pill 3: Review -->
+    <rect x="370" y="0" width="145" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="442" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" fill="#cbd5e1" text-anchor="middle">✅ Automated Approval</text>
+
+    <path d="M 525 13 L 545 13 M 540 8 L 546 13 L 540 18" fill="none" stroke="#64748b" stroke-width="1.5"/>
+
+    <!-- Pill 4: Zero Regressions -->
+    <rect x="555" y="0" width="155" height="26" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+    <text x="632" y="17" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="11" font-weight="600" fill="#6ee7b7" text-anchor="middle">🚀 Zero UI Regressions</text>
+  </g>
+
+  <!-- Border accent -->
+  <rect width="1200" height="420" rx="16" fill="none" stroke="#334155" stroke-width="1.5"/>
+</svg>
