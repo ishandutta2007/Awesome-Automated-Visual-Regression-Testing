@@ -2,7 +2,7 @@
 
 # Awesome-Automated-Visual-Regression-Testing
 
-# Top Automated Visual Regression Testing Ecosystem
+## Top Automated Visual Regression Testing Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Pixel-Perfect UI Validation, Visual Diffing & Cross-Browser Screenshot Comparison*  
