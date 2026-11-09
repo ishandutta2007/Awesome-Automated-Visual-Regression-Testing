@@ -17,33 +17,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The Automated Visual Regression Testing market is estimated at **$1.3B to $1.8B** (scaling toward **$5.0B+** by the mid-2030s at ~13% CAGR), embedded within the broader **$25B–$40B+** automated testing market. The sector exhibits **moderate fragmentation with high concentration around core test clouds**: large multi-product testing clouds (BrowserStack, Sauce Labs, LambdaTest) dominate unified test infrastructure via acquisitions and platform bundles, while specialized visual-first platforms (Applitools, Chromatic, Argos CI, Happo) capture dedicated frontend, component-driven, and CI-native visual diffing workflows rather than a single winner-take-all monopoly.
+
 ## SaaS/Hosted Platforms
 
-- **[BrowserStack Visual Regression Testing (Percy)](https://percy.io/)**  
-  Cloud visual testing integrated with BrowserStack, capturing DOM snapshots and rendering across browsers with AI-powered diff noise reduction and scheduled Visual Scanner monitoring for large URL sets [citation:1][citation:4].
-
-- **[Applitools Eyes](https://applitools.com/)**  
-  Visual AI platform with deterministic matching engines (Strict, Layout, Content), native Figma baseline mapping, and MCP tools for AI coding agents to inspect pixel-exact diffs directly in IDE workflows [citation:2].
-
-- **[Chromatic](https://www.chromatic.com/)**  
-  Visual testing for Storybook and Vitest Browser Mode, uploading test snapshots to a consistent cloud environment for parallel capture, flake reduction, and team-wide diff review directly in pull requests [citation:3][citation:13].
-
-- **[Sauce Labs Visual Testing](https://docs.saucelabs.com/visual-testing/)**  
-  Automated visual comparison across browsers, devices, and OSes with side-by-side DOM diff inspection, baseline matching by test metadata, and Figma design export integration for design-to-code validation [citation:5][citation:15].
-
-- **[LambdaTest SmartUI](https://www.lambdatest.com/support/docs/smartui-baseline-management/)**  
-  Visual regression platform with flexible baseline management (project, branch, dynamic, build-based), CLI-driven baseline marking, and Git-integrated baseline strategies for feature/hotfix/release workflows [citation:6].
-
-- **[Argos CI](https://argos-ci.com/)**  
-  Visual testing service focused on modern JavaScript toolchains, providing Vitest Browser Mode integration with cloud-based screenshot comparison and review workflows to address local baseline limitations [citation:7].
-
-- **[Happo.io](https://happo.io/)**  
-  Visual regression and accessibility testing combined in a single review, catching layout shifts, contrast violations, and animation changes with keyboard-friendly approve/reject workflows and GitHub integration [citation:9].
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Paid Tier) | Free Tier Limits / Free Trial | Key Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[BrowserStack Visual Regression Testing (Percy)](https://percy.io/)** | **~$4.0B Valuation** / ~$225M–$230M ARR | **$149/mo** (billed annually) or $199/mo | **5,000 screenshots/mo** (Web) & 1,000 screenshots/mo (App Percy) free forever; unlimited users & projects | Cloud visual testing integrated with BrowserStack, capturing DOM snapshots and rendering across browsers with AI-powered diff noise reduction and scheduled Visual Scanner monitoring [citation:1][citation:4]. |
+| **[Sauce Labs Visual Testing](https://docs.saucelabs.com/visual-testing/)** | **~$500M–$613M Valuation** / ~$90M–$100M Revenue | **$149/mo** (Virtual Cloud, billed annually) | **28-day free trial**; paid plans include 500 visual snapshots/mo (no perpetual free tier except for open source) | Automated visual comparison across browsers, devices, and OSes with side-by-side DOM diff inspection, baseline matching by test metadata, and Figma design export integration [citation:5][citation:15]. |
+| **[LambdaTest SmartUI](https://www.lambdatest.com/support/docs/smartui-baseline-management/)** | **~$400M Valuation** (Series D) / ~$25M–$30M+ ARR | **$199/mo** (billed annually) | **2,000 visual screenshots** free allocation (no credit card required) | Visual regression platform with flexible baseline management (project, branch, dynamic, build-based), CLI-driven baseline marking, and Git-integrated baseline strategies [citation:6]. |
+| **[Applitools Eyes](https://applitools.com/)** | **$250M Valuation** (Acquired by Thoma Bravo) / ~$30M Revenue | **$667/mo** (Starter plan, billed annually at $8,004/yr) | **14-day fully featured free trial**; starter evaluation tier capped at 50 page units / 1,000 checkpoints | Visual AI platform with deterministic matching engines (Strict, Layout, Content), native Figma baseline mapping, and MCP tools for AI coding agents to inspect pixel-exact diffs directly in IDE workflows [citation:2]. |
+| **[Chromatic](https://www.chromatic.com/)** | **~$5.6M ARR** (Bootstrapped / Indie-backed) | **$179/mo** (Starter plan, 35,000 billed snapshots/mo) | **5,000 snapshots/mo** free forever; unlimited projects & collaborators (Chrome testing, no credit card required) | Visual testing for Storybook and Vitest Browser Mode, uploading test snapshots to cloud environment for parallel capture, TurboSnap diff optimization, and team-wide diff review in pull requests [citation:3][citation:13]. |
+| **[Argos CI](https://argos-ci.com/)** | **Independent / Bootstrapped** (<$2M ARR est.) | **$100/mo** (Pro plan, includes 35,000 screenshots/mo) | **5,000 screenshots/mo** free forever (Hobby Plan, no credit card required) | Visual testing service focused on modern JavaScript toolchains, providing Vitest Browser Mode, Playwright, and Cypress integrations with cloud-based screenshot comparison and review workflows [citation:7]. |
+| **[Happo.io](https://happo.io/)** | **Independent / Bootstrapped** (<$2M ARR est.) | **$149/mo** (Starter plan, includes 50,000 snapshots/mo) | **5,000 snapshots/mo** free forever (Chrome, unlimited users & concurrent runs, never auto-billed on overage) | Visual regression and accessibility testing combined in a single review, catching layout shifts, contrast violations, and animation changes with keyboard-friendly approve/reject workflows and GitHub integration [citation:9]. |
 
 ## Open-Source GitHub Projects
 
