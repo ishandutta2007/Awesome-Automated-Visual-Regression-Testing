@@ -4,7 +4,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
 <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Disco8d-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-<a href="https://github.com/ishandutta2007/Awesome-Automated-Visual-Regression-Testing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Visual-Regression-Testing?style=social" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Automated-Visual-Regression-Testing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Visual-Regression-Testing?style=social" alt="GitHub_Stars"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Automated-Visual-Regression-Testing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Visual-Regression-Testing?style=social" alt="GitHub Forks"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Automated-Visual-Regression-Testing/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Automated-Visual-Regression-Testing?color=brightgreen" alt="Issues"/></a>
 <a href="https://github.com/ishandutta2007/Awesome-Automated-Visual-Regression-Testing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/></a>
@@ -72,63 +72,63 @@ The sector exhibits **moderate fragmentation with high concentration around core
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source projects, visual testing frameworks, pixel comparators, and screenshot runners sorted by GitHub Stars (descending):
+Curated open-source projects, visual testing frameworks, pixel comparators, and screenshot runners sorted by GitHub_Stars (descending):
 
-1. **[BackstopJS](https://github.com/garris/BackstopJS)** [![GitHub stars](https://img.shields.io/github/stars/garris/BackstopJS?style=social&color=white)](https://github.com/garris/BackstopJS/stargazers)  
+1. **[BackstopJS](https://github.com/garris/BackstopJS)** [![GitHub_Stars](https://img.shields.io/github/stars/garris/BackstopJS?style=social&color=white)](https://github.com/garris/BackstopJS/stargazers)  
    Catch CSS curve balls. Node.js visual regression testing tool with Playwright and Puppeteer browser runners, DOM selector targeting, interactive in-browser visual diff reports, and CI integration scripts.
 
-2. **[Pixelmatch](https://github.com/mapbox/pixelmatch)** [![GitHub stars](https://img.shields.io/github/stars/mapbox/pixelmatch?style=social&color=white)](https://github.com/mapbox/pixelmatch/stargazers)  
+2. **[Pixelmatch](https://github.com/mapbox/pixelmatch)** [![GitHub_Stars](https://img.shields.io/github/stars/mapbox/pixelmatch?style=social&color=white)](https://github.com/mapbox/pixelmatch/stargazers)  
    The smallest, simplest, and fastest JavaScript pixel-level image comparison library, powering visual regression engines worldwide with anti-aliasing detection and perceptual color difference metrics.
 
-3. **[Wraith](https://github.com/bbc/wraith)** [![GitHub stars](https://img.shields.io/github/stars/bbc/wraith?style=social&color=white)](https://github.com/bbc/wraith/stargazers)  
+3. **[Wraith](https://github.com/bbc/wraith)** [![GitHub_Stars](https://img.shields.io/github/stars/bbc/wraith?style=social&color=white)](https://github.com/bbc/wraith/stargazers)  
    BBC's responsive screenshot comparison tool. Uses headless browsers to take screenshots of web pages at various screen widths and compares them side-by-side using ImageMagick to uncover responsive design flaws.
 
-4. **[Resemble.js](https://github.com/rsmbl/Resemble.js)** [![GitHub stars](https://img.shields.io/github/stars/rsmbl/Resemble.js?style=social&color=white)](https://github.com/rsmbl/Resemble.js/stargazers)  
+4. **[Resemble.js](https://github.com/rsmbl/Resemble.js)** [![GitHub_Stars](https://img.shields.io/github/stars/rsmbl/Resemble.js?style=social&color=white)](https://github.com/rsmbl/Resemble.js/stargazers)  
    Image analysis and comparison in Node.js and the browser. Supports transparent ignore-boxes, perceptual color distance thresholds, and custom visual tolerance settings.
 
-5. **[jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot)** [![GitHub stars](https://img.shields.io/github/stars/americanexpress/jest-image-snapshot?style=social&color=white)](https://github.com/americanexpress/jest-image-snapshot/stargazers)  
+5. **[jest-image-snapshot](https://github.com/americanexpress/jest-image-snapshot)** [![GitHub_Stars](https://img.shields.io/github/stars/americanexpress/jest-image-snapshot?style=social&color=white)](https://github.com/americanexpress/jest-image-snapshot/stargazers)  
    American Express's popular Jest matcher for image comparison, enabling seamless visual assertions (`toMatchImageSnapshot()`) in unit and integration test workflows.
 
-6. **[Odiff](https://github.com/dmtrKovalenko/odiff)** [![GitHub stars](https://img.shields.io/github/stars/dmtrKovalenko/odiff?style=social&color=white)](https://github.com/dmtrKovalenko/odiff/stargazers)  
+6. **[Odiff](https://github.com/dmtrKovalenko/odiff)** [![GitHub_Stars](https://img.shields.io/github/stars/dmtrKovalenko/odiff?style=social&color=white)](https://github.com/dmtrKovalenko/odiff/stargazers)  
    SIMD-accelerated, high-performance pixel-diffing engine with Node.js and CLI interfaces. Faster than conventional JS pixel matchers with intelligent layout anomaly detection and anti-aliasing handling.
 
-7. **[awesome-regression-testing](https://github.com/mojoaxel/awesome-regression-testing)** [![GitHub stars](https://img.shields.io/github/stars/mojoaxel/awesome-regression-testing?style=social&color=white)](https://github.com/mojoaxel/awesome-regression-testing/stargazers)  
+7. **[awesome-regression-testing](https://github.com/mojoaxel/awesome-regression-testing)** [![GitHub_Stars](https://img.shields.io/github/stars/mojoaxel/awesome-regression-testing?style=social&color=white)](https://github.com/mojoaxel/awesome-regression-testing/stargazers)  
    A curated index of resources, articles, research papers, and tools centered on visual and automated regression testing.
 
-8. **[Loki](https://github.com/oblador/loki)** [![GitHub stars](https://img.shields.io/github/stars/oblador/loki?style=social&color=white)](https://github.com/oblador/loki/stargazers)  
+8. **[Loki](https://github.com/oblador/loki)** [![GitHub_Stars](https://img.shields.io/github/stars/oblador/loki?style=social&color=white)](https://github.com/oblador/loki/stargazers)  
    Visual regression testing for Storybook projects. Operates seamlessly with zero configuration in Dockerized environments to eliminate cross-platform font rendering and anti-aliasing inconsistencies.
 
-9. **[screenshot-tests-for-android](https://github.com/meta/screenshot-tests-for-android)** [![GitHub stars](https://img.shields.io/github/stars/meta/screenshot-tests-for-android?style=social&color=white)](https://github.com/meta/screenshot-tests-for-android/stargazers)  
+9. **[screenshot-tests-for-android](https://github.com/meta/screenshot-tests-for-android)** [![GitHub_Stars](https://img.shields.io/github/stars/meta/screenshot-tests-for-android?style=social&color=white)](https://github.com/meta/screenshot-tests-for-android/stargazers)  
    Meta's library to generate fast, deterministic screenshots during Android instrumentation tests, verifying layouts across multiple densities and device configurations.
 
-10. **[Lost Pixel](https://github.com/lost-pixel/lost-pixel)** [![GitHub stars](https://img.shields.io/github/stars/lost-pixel/lost-pixel?style=social&color=white)](https://github.com/lost-pixel/lost-pixel/stargazers)  
+10. **[Lost Pixel](https://github.com/lost-pixel/lost-pixel)** [![GitHub_Stars](https://img.shields.io/github/stars/lost-pixel/lost-pixel?style=social&color=white)](https://github.com/lost-pixel/lost-pixel/stargazers)  
     Holistic open-source visual regression testing engine for Storybook, Ladle, Next.js, and modern frontend frameworks, serving as a self-hosted alternative to Percy and Chromatic.
 
-11. **[reg-suit](https://github.com/reg-viz/reg-suit)** [![GitHub stars](https://img.shields.io/github/stars/reg-viz/reg-suit?style=social&color=white)](https://github.com/reg-viz/reg-suit/stargazers)  
+11. **[reg-suit](https://github.com/reg-viz/reg-suit)** [![GitHub_Stars](https://img.shields.io/github/stars/reg-viz/reg-suit?style=social&color=white)](https://github.com/reg-viz/reg-suit/stargazers)  
     Flexible TypeScript-based visual regression testing workflow tool that synchronizes screenshot baselines with cloud storage (AWS S3, Google Cloud Storage), integrating with GitHub PR notifications.
 
-12. **[gemini](https://github.com/gemini-testing/gemini)** [![GitHub stars](https://img.shields.io/github/stars/gemini-testing/gemini?style=social&color=white)](https://github.com/gemini-testing/gemini/stargazers)  
+12. **[gemini](https://github.com/gemini-testing/gemini)** [![GitHub_Stars](https://img.shields.io/github/stars/gemini-testing/gemini?style=social&color=white)](https://github.com/gemini-testing/gemini/stargazers)  
     Utility for regression testing the visual appearance of web pages via Selenium WebDriver (pioneered visual regression testing in enterprise frontend pipelines).
 
-13. **[Testplane (ex-hermione)](https://github.com/gemini-testing/testplane)** [![GitHub stars](https://img.shields.io/github/stars/gemini-testing/testplane?style=social&color=white)](https://github.com/gemini-testing/testplane/stargazers)  
+13. **[Testplane (ex-hermione)](https://github.com/gemini-testing/testplane)** [![GitHub_Stars](https://img.shields.io/github/stars/gemini-testing/testplane?style=social&color=white)](https://github.com/gemini-testing/testplane/stargazers)  
     Browser test runner based on Mocha and WebdriverIO with built-in visual comparison, auto-retries, GUI reporter, and parallel execution for complex web suites.
 
-14. **[Visual Regression Tracker](https://github.com/visual-regression-tracker/visual-regression-tracker)** [![GitHub stars](https://img.shields.io/github/stars/visual-regression-tracker/visual-regression-tracker?style=social&color=white)](https://github.com/visual-regression-tracker/visual-regression-tracker/stargazers)  
+14. **[Visual Regression Tracker](https://github.com/visual-regression-tracker/visual-regression-tracker)** [![GitHub_Stars](https://img.shields.io/github/stars/visual-regression-tracker/visual-regression-tracker?style=social&color=white)](https://github.com/visual-regression-tracker/visual-regression-tracker/stargazers)  
     Open-source, self-hosted visual testing platform with Docker deployment, baseline history tracking, ignore regions, and multi-engine support (Pixelmatch, Looks-Same, Odiff).
 
-15. **[Happo (Open-Source Core)](https://github.com/happo/happo)** [![GitHub stars](https://img.shields.io/github/stars/happo/happo?style=social&color=white)](https://github.com/happo/happo/stargazers)  
+15. **[Happo (Open-Source Core)](https://github.com/happo/happo)** [![GitHub_Stars](https://img.shields.io/github/stars/happo/happo?style=social&color=white)](https://github.com/happo/happo/stargazers)  
     Open-source visual diffing tool for user interfaces in CI pipelines, serving as the foundational architectural core for Happo.io.
 
-16. **[AyeSpy](https://github.com/newsuk/AyeSpy)** [![GitHub stars](https://img.shields.io/github/stars/newsuk/AyeSpy?style=social&color=white)](https://github.com/newsuk/AyeSpy/stargazers)  
+16. **[AyeSpy](https://github.com/newsuk/AyeSpy)** [![GitHub_Stars](https://img.shields.io/github/stars/newsuk/AyeSpy?style=social&color=white)](https://github.com/newsuk/AyeSpy/stargazers)  
     Performant visual regression testing tool developed by News UK, designed for continuous integration with configurable comparison thresholds and Selenium grid support.
 
-17. **[jest-puppe-shots](https://github.com/macku/jest-puppe-shots)** [![GitHub stars](https://img.shields.io/github/stars/macku/jest-puppe-shots?style=social&color=white)](https://github.com/macku/jest-puppe-shots/stargazers)  
+17. **[jest-puppe-shots](https://github.com/macku/jest-puppe-shots)** [![GitHub_Stars](https://img.shields.io/github/stars/macku/jest-puppe-shots?style=social&color=white)](https://github.com/macku/jest-puppe-shots/stargazers)  
     Jest plugin for capturing and validating screenshots of React components with Puppeteer, bringing component-level visual assertions to unit test workflows.
 
-18. **[nightwatch-vrt](https://github.com/Crunch-io/nightwatch-vrt)** [![GitHub stars](https://img.shields.io/github/stars/Crunch-io/nightwatch-vrt?style=social&color=white)](https://github.com/Crunch-io/nightwatch-vrt/stargazers)  
+18. **[nightwatch-vrt](https://github.com/Crunch-io/nightwatch-vrt)** [![GitHub_Stars](https://img.shields.io/github/stars/Crunch-io/nightwatch-vrt?style=social&color=white)](https://github.com/Crunch-io/nightwatch-vrt/stargazers)  
     Visual regression testing extension for the Nightwatch.js test framework, enabling automated screenshot assertions within existing end-to-end Nightwatch test suites.
 
-19. **[ChromeDiff](https://github.com/katat/ChromeDiff)** [![GitHub stars](https://img.shields.io/github/stars/katat/ChromeDiff?style=social&color=white)](https://github.com/katat/ChromeDiff/stargazers)  
+19. **[ChromeDiff](https://github.com/katat/ChromeDiff)** [![GitHub_Stars](https://img.shields.io/github/stars/katat/ChromeDiff?style=social&color=white)](https://github.com/katat/ChromeDiff/stargazers)  
     Lightweight Node.js visual regression library using headless Chrome and Resemble.js for local image comparisons in simple testing pipelines.
 
 ---
@@ -150,7 +150,7 @@ Contributions are warmly welcomed! Help us keep this guide accurate, fresh, and 
 
 1. 🍴 Fork the repository.
 2. 🌿 Create a new branch: `git checkout -b feature/add-new-tool`.
-3. 📝 Add or edit entries in `README.md` maintaining table formatting, pricing transparency, and accurate star badge links.
+3. 📝 Add or edit entries in `README.md` maintaining table formatting, pricing transparency, and accurate Stars_Badge links.
 4. 🚀 Push changes and open a Pull Request with a clear description.
 
 ---
